@@ -1,0 +1,31 @@
+.container{
+    background-color: rgba(192, 129, 34, 0.466);
+    width: 60%;
+    margin: 15%;
+}
+.container1{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100px;
+    line-height: 3;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    gap: 80px;
+
+}
+.img{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+
+}
+.button{
+  background-color: rgba(214, 91, 132, 0.678);
+  width: 160px;
+  height: 30px;
+  border: 1px;
+}
