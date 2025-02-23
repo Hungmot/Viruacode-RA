@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {}
+
+.header .header-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+    height: 48px;
+}
+
+.header .header-top .title {
+    margin-left: 20%;
+}
+
+.header .header-top .title a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.header .header-top .langue {
+    margin-left: 20%;
+}
+
+.header .header-top .langue select {
+    width: 70px;
+    background-color: black;
+    border: none;
+    color: aliceblue;
+
+}
+
+.header .header-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.header .header-bottom .title {
+    font-size: 23px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-left: 5%;
+}
+
+.header .header-bottom .menu a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.header .header-bottom .seach {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 245, 245);
+    height: 45px;
+    width: 160px;
+    margin-right: 10%;
+}
+
+.header .header-bottom .seach .text {
+    height: 30px;
+    outline: none;
+    border: none;
+    font-size: x-small;
+    background-color: rgb(245, 245, 245);
+}
+
+.header .header-bottom .seach .icon {
+    height: 15px;
+    margin-left: 12px;
+}
+
+.body {
+    display: flex;
+    height: 781px;
+    width: 1200px;
+    gap: 100px;
+    align-items: center;
+}
+
+.body .sign-in {
+    width: 550px;
+    margin-left: 3%;
+}
+
+.body .sign-in .title {
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.body .sign-in .title span {
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+.body .sign-in .layout {
+    display: grid;
+    margin-top: 25px;
+}
+
+.body .sign-in .layout input {
+    border: none;
+    border-bottom: 1px solid;
+    padding: 6px;
+}
+
+.body .sign-in .buttom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.body .sign-in .buttom button{
+    height: 40px;
+    width: 143px;
+    border: none;
+    background-color: rgb(219, 68, 68);
+    border-radius: 3px;
+}
+.body .sign-in .buttom a{
+    text-decoration: none;
+    color: rgb(219, 68, 68);
+    margin-left: 20%;
+}
+.footer{
+    color: rgb(255, 255, 255);
+    background-color: rgb(6, 7, 7);
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    align-items: center;
+    height: 300px;
+}
+.footer .sub{
+    padding-bottom: 30px;
+}
+.footer .sub .E{
+    font-size: x-large;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer .sub nav{
+    font-family: Arial, sans-serif;
+    padding-top: 12px;
+}
+.footer .sub .arr{
+    background-color: rgba(250, 235, 215, 0);
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid white;
+    width: 70%;
+}
+.footer .sub .arr input{
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 28px;
+    width: 120px;
+    background-color: #00000000;
+    color: #ffffff;
+    margin-left: 10px;
+}
+.footer .sub .arr img{
+    height: 20px;
+    margin-right: 12px;
+}
+.footer .support .S{ 
+    font-size: x-large;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer .support .address{
+    padding-top: 10px;
+}
+.footer .support .address span{
+    padding-top: 12px;
+}
+.footer .account .A{
+    font-size: x-large;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer .account .acc{
+    padding-top: 10px;
+}
+.footer .account .acc a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.footer .link .Q{
+    font-size: x-large;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer .link .quick{
+    padding-top: 10px;
+}
+.footer .link .quick a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.footer .download .D{
+    font-size: x-large;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif
+}
+.footer .download .app{
+    padding-top: 12px;
+}
+.footer .download .app .link{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+.footer .download .app .link .icon img{
+    height: auto;
+}
+.end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 7, 7);
+    color: #ffffff;
+    height: 30px;
+}
+hr{
+    border: 1px solid rgba(180, 49, 49, 0.24);
+}
